@@ -1,3 +1,16 @@
+@import "reset";
+@import "variabels";
+@import "mixins";
+
+//calculator
+@import "calculator/calculator";
+@import "calculator/keyboard";
+
+
+
 body {
-  background: gold;
+  @include center(center);
+
+  height: 100vh;
+  background-color: $color-dark;
 }
